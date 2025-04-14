@@ -1,0 +1,21 @@
+{
+  "graphqlEndpoint": "https://api.traceable.ai/graphql",
+  "token": "",
+  "description": "Daily passive scan for owned APIs",
+  "ownerValue": "",
+  "policyId": "30ce0c1a-3cfe-46dc-8ace-97937d357f9f",
+  "trafficEnvironment": "",
+  "hookConfiguration": "0712511d-7c05-42ff-a4ec-773709222406",
+  "scheduleJobConfiguration": {
+    "name": "Daily",
+    "dailySchedule": {
+      "scheduledTime": "20:00:00.000Z"
+    }
+  },
+  "advanceConfiguration": {
+    "delayDurationBetweenRequests": "PT0S",
+    "idleTimeoutDuration": "PT600S",
+    "scanTimeoutDuration": "PT1800S",
+    "totalTestExecutionThreads": 20
+  }
+}
